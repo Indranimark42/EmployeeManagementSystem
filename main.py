@@ -3,7 +3,7 @@ import mysql.connector, re
 regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
 Pattern = r"[\+\d{2,3}]?(\d{2,3}[-\.\s]??\d{2,3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})"
 connect = mysql.connector.connect(
-    host="127.0.0.1", user="root", password="Kaushik5@", database="employee"
+    host="Hostname goes here", user="Username goes here", password="Password goes here", database="Database name goes here"
 )
 mycursor = connect.cursor()
 
