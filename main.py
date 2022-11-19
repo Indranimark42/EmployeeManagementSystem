@@ -7,10 +7,10 @@ connect = mysql.connector.connect(
 )
 mycursor = connect.cursor()
 
-
+#this function is used for inserting data
 def insert_data():
     name = input("Enter name: ")
-    email = input("Enter the email: ")
+    email = input("Enter the email: ")         
     if re.fullmatch(regex, email):
         print("Valid email")
     else:
